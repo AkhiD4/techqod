@@ -21,7 +21,7 @@ jobs:
       run: 
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag AkhiD4/github:latest
+        docker build . --file Dockerfile --tag Akhileshd4/github:latest
         docker login -u $USER -p $PASS
         
-        docker push AkhiD4/github:latest
+        docker push Akhileshd4/github:latest
